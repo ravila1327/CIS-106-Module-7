@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="M7P2"/>
+        <attribute name="authors" value="rafae"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-15 12:42:04 PM"/>
+        <attribute name="created" value="cmFmYWU7UkFGQTsyMDI2LTExLTE1OzEyOjMwOjAzIFBNOzIwNjQ="/>
+        <attribute name="edited" value="cmFmYWU7UkFGQTsyMDI2LTExLTE1OzEyOjQyOjA0IFBNOzE7MjE3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="startValue" type="Integer" array="False" size=""/>
+            <declare name="stopValue" type="Integer" array="False" size=""/>
+            <declare name="incrementValue" type="Integer" array="False" size=""/>
+            <input variable="startValue"/>
+            <input variable="stopValue"/>
+            <input variable="incrementValue"/>
+            <while expression="startValue &lt;= stopValue">
+                <output expression="startValue" newline="True"/>
+                <assign variable="startValue" expression="startValue + incrementValue"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
