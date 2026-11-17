@@ -4,9 +4,9 @@
         <attribute name="name" value="M7P2"/>
         <attribute name="authors" value="rafae"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-11-15 12:42:04 PM"/>
+        <attribute name="saved" value="2026-11-16 06:19:45 PM"/>
         <attribute name="created" value="cmFmYWU7UkFGQTsyMDI2LTExLTE1OzEyOjMwOjAzIFBNOzIwNjQ="/>
-        <attribute name="edited" value="cmFmYWU7UkFGQTsyMDI2LTExLTE1OzEyOjQyOjA0IFBNOzE7MjE3Ng=="/>
+        <attribute name="edited" value="cmFmYWU7UkFGQTsyMDI2LTExLTE2OzA2OjE5OjQ1IFBNOzI7MjE5MA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,8 +14,11 @@
             <declare name="startValue" type="Integer" array="False" size=""/>
             <declare name="stopValue" type="Integer" array="False" size=""/>
             <declare name="incrementValue" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter start value&quot;" newline="True"/>
             <input variable="startValue"/>
+            <output expression="&quot;enter stop value&quot;" newline="True"/>
             <input variable="stopValue"/>
+            <output expression="&quot;Enter increment value&quot;" newline="True"/>
             <input variable="incrementValue"/>
             <while expression="startValue &lt;= stopValue">
                 <output expression="startValue" newline="True"/>
